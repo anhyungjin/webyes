@@ -1,0 +1,62 @@
+body{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h1{
+  text-align: center;
+  grid-row: auto;
+  border-bottom: 0.02px solid gray;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.content{
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+div{
+  color:black;
+}
+
+.menu, .sub_menu, .sub_menu2{
+  color:gray;
+  font-size: 20px;
+  margin-left: 15px;
+}
+#menu_name{
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+#s_bo, #b_bo, #m_bo, #s_bul, #g_man, #w_man, #rice, #nudle, #dang{
+  color:black;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+#mandu_bu_img{
+  width:25%;
+  border:1px solid red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  padding-left: 0px;
+  border-right: 0.02px solid gray;
+}
+
+ol{
+  padding-left:20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
